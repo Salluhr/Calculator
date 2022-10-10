@@ -1,21 +1,22 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Calculator</title>
-   <link href="calculator.css" rel="stylesheet">
-   <script src="calculator.js"></script>
-   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="calculator.css" rel="stylesheet">
+    <script src="calculator.js"></script>
+
 </head>
+
 <body>
     <h1>Simple Calculator</h1>
     <div class="outerbox">
         <table>
             <tr>
-                <td colspan="4"><input id="result" type="text"/></td>
+                <td colspan="4"><input id="result" type="text" /></td>
             </tr>
-            
+
             <tr>
                 <td><button class="button" onClick="view('%')">%</button></td>
                 <td><button class="button" onClick="view('(')">(</button></td>
@@ -27,14 +28,14 @@
                 <td><button class="button" onClick="view('8')">8</button></td>
                 <td><button class="button" onClick="view('9')">9</button></td>
                 <td><button class="button" onClick="view('+')">+</button></td>
-                
+
             </tr>
             <tr>
                 <td><button class="button" onClick="view('4')">4</button></td>
                 <td><button class="button" onClick="view('5')">5</button></td>
                 <td><button class="button" onClick="view('6')">6</button></td>
                 <td><button class="button" onClick="view('-')">-</button></td>
-                
+
             </tr>
             <tr>
                 <td><button class="button" onClick="view('1')">1</button></td>
@@ -49,10 +50,7 @@
                 <td><button class="button" onClick="compute()">=</button></td>
             </tr>
         </table>
-        
-    
-</div>
+    </div>
 </body>
+
 </html>
-
-
